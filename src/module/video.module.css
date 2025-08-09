@@ -1,0 +1,114 @@
+.startcall{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'DM sans',sans-serif;
+    background-color: white;
+    color: rgb(6, 113, 6);
+    font-weight: 700;
+    transition: 0.2s all ease;
+}
+.endcall{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'DM sans',sans-serif;
+    background-color: rgba(199, 41, 41, 0.788);
+    color: white;
+    font-weight: 700;
+    transition: 0.2s all ease;
+}
+.endcall:hover{
+        background-color: rgba(255, 0, 0, 0.742);
+}
+.startcall:hover{
+    background-color: rgb(137, 210, 137);
+    color: black;
+}
+.buttoncontsction .action{
+    font-size: 20px;
+    /* padding: 15px; */
+    border-radius: 50%;
+}
+.callbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.buttoncontsction  img{
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttoncontsction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+/* .buttoncontsction .action img:hover, .buttoncontsction .action:hover{
+    background-color: grey;
+} */
+
+.h1 span{
+   color: #0c7ab1;
+}
+.h1{
+    font-family: 'DM sans';
+    color: black;
+    font-weight: 600;
+}
+.he{
+    background-color:white;
+    border-radius: 20px;
+    height: 180px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.historymap{
+    background-color: rgb(218, 231, 241);
+    color: black;
+    margin-bottom: 7px;
+}
+.historymap:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+.butooonn{
+    background-color: transparent; 
+}
+.butooncont .accpet{
+    background-color: green;
+    padding: 0px 10px;
+    width: 40%;
+    border-radius: 20px;
+}
+.butooncont .rej{
+    background-color: red;
+    border-radius: 20px;
+    width: 40%;
+    padding: 0px 10px;
+}
+.butooonn:hover{
+    background-color: rgb(218, 231, 241);
+    color: black;
+}
+.butooncont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    width: 100%;
+    /* height: 100%; */
+}

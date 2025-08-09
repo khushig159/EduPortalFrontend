@@ -1,0 +1,74 @@
+.card {
+  /* width: px; */
+  background-color: #fafafa;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+  padding: 24px 20px 32px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+  color: #212121;
+  font-family: 'DM sans';
+  color: #3e3e3e;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+  justify-content: center;
+}
+.blogtitle{
+    margin-top: 30px;
+    font-family: 'DM sans';
+    font-size: 30px;
+    font-weight: 700;
+    color: #424242;
+}
+
+.btnAccept, .btnReject {
+  flex: 1;
+  padding: 5px 0;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+  color: white;
+font-size: 14px;
+}
+.bloggg{
+    height: 100%;
+    
+}
+.blogcon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    height: 100%;
+}
+.btnAccept {
+  background-color: rgba(81, 187, 81, 0.767);
+  color: #343333;
+  font-family: 'DM sans';
+}
+
+.btnAccept:hover {
+  background-color: green;
+}
+
+.btnReject {
+    font-family: 'DM sans';
+  background-color: #d44035;
+}
+
+.btnReject:hover {
+  background-color: #b52a1d;
+}
