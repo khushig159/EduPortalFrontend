@@ -8,7 +8,7 @@ If a mentor is unavailable, students can get answers from an *AI-powered assista
 ## 🚀 Features  
 
 ### 👨‍🏫 *Real Mentorship*  
-- Students can connect in *real-time* with verified mentors.  
+- Students can connect in *real-time* thrugh chat or video call with verified mentors.  
 - Mentors can guide on *academic topics, career advice, interview preparation, and personal development*.  
 
 ### 🤖 *AI-Powered Doubt Solving*  
@@ -53,7 +53,9 @@ If a mentor is unavailable, students can get answers from an *AI-powered assista
 
 ---
 
-## 📂 Project Structure  
+## 📂 Project Structure 
+
+```bash
 
 📦 EduMentor
 ┣ 📂 backend
@@ -69,74 +71,10 @@ If a mentor is unavailable, students can get answers from an *AI-powered assista
 ┃ ┗ App.js # React entry point
 ┗ README.md
 
-yaml
-Copy
-Edit
-
 ---
 
-## ⚙ Installation  
-
-### ⿡ Clone the repository  
-```bash
-git clone https://github.com/yourusername/edumentor.git
-cd edumentor
-⿢ Install dependencies
-Backend:
-
-bash
-Copy
-Edit
-cd backend
-npm install
-Frontend:
-
-bash
-Copy
-Edit
-cd frontend
-npm install
-⿣ Set up environment variables
-Create .env in backend directory:
-
-ini
-Copy
-Edit
-MONGO_URI=your_mongodb_connection_string
-GEMINI_API_KEY=your_google_gemini_api_key
-PORT=8000
-⿤ Start the servers
-Backend:
-
-bash
-Copy
-Edit
-npm start
-Frontend:
-
-bash
-Copy
-Edit
-npm run dev
-📌 API Endpoints
-Chat with Mentor or AI
-POST /chat
-
-Body:
-
-json
-Copy
-Edit
-{ 
-  "prompt": "Your question", 
-  "instruction": "Optional AI instruction" 
-}
-Optional File Upload: .pdf or .docx
-
 🔄 How It Works — Query Flow
-mermaid
-Copy
-Edit
+
 flowchart TD
     A[Student Sends Query] --> B{Is Mentor Available?}
     B -- Yes --> C[Real Mentor Responds in Chat]
@@ -149,8 +87,6 @@ flowchart TD
 💡 Future Enhancements
 🎥 Video Mentorship Sessions with AI transcription
 
-🌐 Multi-language support
-
 📊 Mentor performance analytics
 
 🧠 Continuous AI fine-tuning from mentor’s past chats
@@ -159,18 +95,3 @@ flowchart TD
 To make mentorship accessible 24/7 for every student —
 whether it’s from a human mentor or a mentor AI twin that feels just as real.
 
-pgsql
-Copy
-Edit
-
-This is ready to be **pasted directly into your README.md** and will also render the *mermaid flow diagram* on GitHub.  
-
-If you want, I can also create a *feature graphic* or banner for your README so it looks more professional when people land on your repo. Would you like me to make that?
-
-
-
-
-
-
-
-Ask ChatGPT
