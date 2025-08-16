@@ -53,6 +53,10 @@ If a mentor is unavailable, students can get answers from an *AI-powered assista
 
 ---
 
+## Video demo
+
+*Video demo of the project can be viewed in file named AskUp.mp4*
+
 ## 📂 Project Structure 
 
 ```bash
